@@ -14,32 +14,37 @@ class ViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
     var defaultBackgroundColor: UIColor!
     
+    let defaultMessage = "Hello From Justin G!!!"
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         defaultBackgroundColor = view.backgroundColor
     }
 
     @IBAction func didTapButton(_ sender: Any) {
         print("Hello")
-        textLabel.textColor = UIColor.systemOrange
+        textLabel.textColor = UIColor.systemYellow
     }
     
     @IBAction func didTapViewButton(_ sender: Any) {
-        view.backgroundColor = UIColor.red
+        view.backgroundColor = UIColor.purple
     }
     
     @IBAction func didTapTextChangeButton(_ sender: Any) {
-        textLabel.text = textField.text
-        
+        let text = textField.text;
+        // Check for empty fields
+        if text?.isEmpty ?? true {
+            textLabel.text = "Goodbye!"
+        } else {
+            textLabel.text = textField.text
+        }
     }
     
     @IBAction func onResetGesture(_ sender: Any) {
-        textLabel.text = "Hello"
+        textLabel.text = defaultMessage
         view.backgroundColor = defaultBackgroundColor
-        textLabel.textColor = UIColor.black
+        textLabel.textColor = UIColor.white
     }
 }
 
