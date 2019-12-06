@@ -9,7 +9,7 @@ This application is for the Mobile App Development course by CodePath for the Sp
 
 ### App Walk-though
 https://imgur.com/VYt6Mtu
-<img src= "https://imgur.com/VYt6Mtu" width=200><br>
+<img src= "https://imgur.com/v0jhVGc.gif" width=200><br>
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
 - [x] 2. User see's custom background color.
