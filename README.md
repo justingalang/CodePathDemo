@@ -8,7 +8,7 @@ This application is for the Mobile App Development course by CodePath for the Sp
 - the background color
 
 ### App Walk-though
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/lQiMQHS" data-context="false" ><a href="//imgur.com/a/lQiMQHS"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
 - [x] 2. User see's custom background color.
