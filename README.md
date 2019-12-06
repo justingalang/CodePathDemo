@@ -8,7 +8,8 @@ This application is for the Mobile App Development course by CodePath for the Sp
 - the background color
 
 ### App Walk-though
-<img src= https://imgur.com/VYt6Mtu.gif width=200><br>
+https://imgur.com/VYt6Mtu
+<img src= imgur.com/VYt6Mtu.gif width=200><br>
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
 - [x] 2. User see's custom background color.
